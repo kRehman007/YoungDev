@@ -21,7 +21,7 @@ const Home = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          height: { xs: "min-content", md: "100vh" },
+          height: "100vh",
           width: "100vw",
           opacity: 0.4,
           paddingBottom: { xs: "20px", md: "0" },
@@ -36,12 +36,12 @@ const Home = () => {
             alignItems: "center",
             gap: 2,
             textAlign: "center",
-            paddingTop: "250px",
+            paddingTop: { xs: "150px", md: "250px" },
           }}
         >
           <Typography
             sx={{
-              fontSize: { xs: "22px", md: "55px" },
+              fontSize: { xs: "25px", md: "55px" },
               fontWeight: 600,
               color: "#fff",
               lineHeight: 1,
