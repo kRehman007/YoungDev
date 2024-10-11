@@ -1,9 +1,9 @@
 import { Container, Typography, Box } from "@mui/material";
 import React from "react";
-import img1 from "../assets/img4.jfif";
-import img2 from "../assets/img5.jfif";
-import img3 from "../assets/img6.jfif";
-import img4 from "../assets/img7.jfif";
+import img1 from "../assets/img6.webp";
+import img2 from "../assets/img9.jpeg";
+import img3 from "../assets/img2.jpg";
+import img4 from "../assets/img5.jpg";
 
 import Navbar from "./Navbar";
 

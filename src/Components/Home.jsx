@@ -36,7 +36,7 @@ const Home = () => {
             alignItems: "center",
             gap: 2,
             textAlign: "center",
-            paddingTop: { xs: "150px", md: "250px" },
+            paddingTop: { xs: "170px", md: "250px" },
           }}
         >
           <Typography
@@ -44,13 +44,17 @@ const Home = () => {
               fontSize: { xs: "25px", md: "55px" },
               fontWeight: 600,
               color: "#fff",
-              lineHeight: 1,
             }}
           >
-            Dedicated Practice,
-            <br /> Outstanding Result!
+            Dedicated Practice, Outstanding Result!
           </Typography>
-          <Typography sx={{ color: "#fff", width: { xs: "40ch", md: "70ch" } }}>
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: { xs: "14px", md: "17px" },
+              width: { xs: "40ch", md: "70ch" },
+            }}
+          >
             Welcome to Entry Testing Service Pakistan, where we specialize in
             preparing students for MDCAT, ECAT, and general entry tests through
             comprehensive mock exams. Our tailored approach includes realistic

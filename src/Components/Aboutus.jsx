@@ -1,5 +1,5 @@
 import { Container, Typography, Box } from "@mui/material";
-import img from "../assets/img5.jfif";
+import img from "../assets/img5.jpg";
 import React from "react";
 import Navbar from "./Navbar";
 
