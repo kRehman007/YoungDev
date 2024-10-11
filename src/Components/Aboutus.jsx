@@ -14,7 +14,7 @@ const Aboutus = () => {
           gap: 4,
           flexDirection: { xs: "column", md: "row" },
           height: { xs: "min-content", md: "100vh" },
-          paddingTop: { xs: "170px" },
+          paddingTop: { xs: "110px", md: "170px" },
           fontWeight: 600,
           padding: "50px",
         }}

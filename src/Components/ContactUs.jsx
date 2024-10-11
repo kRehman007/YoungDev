@@ -15,7 +15,7 @@ const ContactUs = () => {
         gap: 1,
         alignItems: "center",
 
-        paddingTop: "150px",
+        paddingTop: { xs: "100px", md: "150px" },
         fontWeight: 600,
       }}
     >
@@ -58,7 +58,7 @@ const ContactUs = () => {
           </Box>
           <Box sx={{ display: "flex", gap: 1 }}>
             <CallIcon />
-            <Typography>+923342949753</Typography>
+            <Typography>+92 3341129610</Typography>
           </Box>
           <Box sx={{ display: "flex", gap: 1 }}>
             <LocationOnIcon />

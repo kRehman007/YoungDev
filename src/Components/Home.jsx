@@ -36,7 +36,7 @@ const Home = () => {
             alignItems: "center",
             gap: 2,
             textAlign: "center",
-            paddingTop: { xs: "170px", md: "250px" },
+            paddingTop: { xs: "170px", md: "220px" },
           }}
         >
           <Typography
@@ -44,6 +44,7 @@ const Home = () => {
               fontSize: { xs: "25px", md: "55px" },
               fontWeight: 600,
               color: "#fff",
+              maxWidth: "20ch",
             }}
           >
             Dedicated Practice, Outstanding Result!

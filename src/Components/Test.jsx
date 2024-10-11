@@ -17,7 +17,7 @@ const Test = () => {
           flexDirection: "column",
           gap: 1,
           alignItems: "center",
-          height: { xs: "min-content", sm: "100vh" },
+          height: "min-content",
           paddingTop: { xs: "50px", md: "150px" },
           fontWeight: 600,
         }}
@@ -35,21 +35,9 @@ const Test = () => {
             display: "flex",
             flexDirection: { xs: "column", sm: "row" },
             gap: 4,
-            marginTop: "70px",
+            marginTop: "50px",
           }}
         >
-          {/* <img
-            src={img}
-            style={{ width: "300px", height: "300px", borderRadius: "20px" }}
-          /> */}
-          {/* <img
-            src={img}
-            style={{ width: "300px", height: "300px", borderRadius: "20px" }}
-          />
-          <img
-            src={img}
-            style={{ width: "300px", height: "300px", borderRadius: "20px" }}
-          /> */}
           <Box
             sx={{
               width: "300px",

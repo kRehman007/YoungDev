@@ -20,12 +20,12 @@ const Reviews = () => {
         id="reviews"
         sx={{
           width: "100vw",
-          height: { xs: "min-content", md: "100vh", paddingBottom: "20px" },
+          height: "min-content",
           display: "flex",
           flexDirection: "column",
 
           fontWeight: 600,
-          paddingTop: "150px",
+          paddingTop: { xs: "100px", md: "150px" },
         }}
       >
         <Typography

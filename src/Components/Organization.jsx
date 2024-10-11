@@ -16,10 +16,10 @@ const Organization = () => {
         sx={{
           display: "flex",
           flexDirection: "column",
-          height: { xs: "min-content", sm: "100vh" },
+          height: "min-content",
           gap: 1,
           alignItems: "center",
-          paddingTop: { xs: "130px", md: "170px" },
+          paddingTop: { xs: "50px", md: "170px" },
 
           fontWeight: 600,
         }}
